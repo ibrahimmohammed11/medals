@@ -70,7 +70,7 @@ $("#toTop").click(function(){
 })
 /*-----------------scroll----------------------------*/
 /*--------------------- loading screen-----------------------  */
-$(window).on("load",function(){
+$(document).ready(function(){
   $(".loader-wrapper").fadeOut("slow");
 });
 /* -------------------loading screen ------------------------ */
