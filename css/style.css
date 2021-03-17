@@ -73,9 +73,9 @@ html,body{
   position: relative;
 }
 .heading h2 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: rgba(0, 0, 0, 0.1);
-  letter-spacing: 10px;
+  letter-spacing: 6px;
 }
 .about {
   background-image: url(../imagess/light_dot.jpg);
