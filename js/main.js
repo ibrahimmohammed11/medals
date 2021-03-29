@@ -80,7 +80,7 @@ $('.carousel').carousel({
   interval: 1500,
 })
 /*-----------------carousel----------------------------*/
-/*-----------------signer----------------------------*/
+/*-----------------ARTICLES----------------------------*/
 
 $("#signer1").click(function(){
   $("#signer-p1").slideToggle(300)
@@ -94,10 +94,10 @@ $("#signer3").click(function(){
 $("#signer4").click(function(){
   $("#signer-p4").slideToggle(300)
 })
-/*-----------------signer----------------------------*/
+/*-----------------ARTICLES----------------------------*/
 /*-----------------timer----------------------------*/
 
-let d = new Date("March 17, 2021 11:30:59").getTime();
+let d = new Date("May 1, 2021 11:30:59").getTime();
 let x = setInterval(function(){
 
     let now = new Date().getTime();
